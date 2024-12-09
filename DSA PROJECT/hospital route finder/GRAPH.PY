@@ -52,6 +52,7 @@ edges = [
     ("DADAN SHAH", "ALRAHIM ROAD", 1.5), ("GULISTAN E SAJJAD", "JAMSHORO ROAD", 1.5)
 ]
 
+
 # Add edges to the graph
 for v1, v2, weight in edges:
     G.add_edge(v1, v2, weight=weight)
@@ -70,3 +71,4 @@ nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=7, font_
 plt.title("Graph Visualization of Blood Bank Routing System")
 plt.axis("off")  # Hide axes for clarity
 plt.show()
+#code is ended
