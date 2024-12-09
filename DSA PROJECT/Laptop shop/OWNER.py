@@ -18,7 +18,7 @@ class Owner(Laptop):
             while current.next:
                 current = current.next
             current.next = new_node
-        print("\n\t\t\t\t\t\t Laptop added successfully!")
+        print("\n\t\t\t\t\t Laptop added successfully!")
     
 
 

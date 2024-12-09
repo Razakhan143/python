@@ -21,7 +21,7 @@ class Admin(Owner):
         user = input("                                                USERNAME : ")
         password = input("                                                PASSWORD : ")
         
-        # Check credentials in a file (assuming 'login.txt' exists with credentials in 'username password' format per line)
+
         login_successful = False
         with open("login_details.txt", "r") as file:
             for line in file:
